@@ -1,0 +1,104 @@
+body
+{
+	background: #232323;
+	text-transform: uppercase;
+}
+h1
+{
+	color: white;
+	font-size: 65px;
+	margin-top: 10px;
+}
+h5
+{
+	color: white;
+	font-size: 40px;
+	margin: 5px 0;
+
+}
+.square
+{
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 25px;
+	transition: background 0.6s;/*it animates when the background color property changes*/
+    -webkit-transition:  background 0.6s;
+    -moz-transition: background 0.6s;
+}
+.grid
+{
+
+	max-width: 600px;
+	margin: 20px auto;
+}
+#clickResult
+{
+	color:black ;
+	
+	font-weight: normal;
+	font-size: 16px;
+
+}
+.heading
+{
+	background: #3399FF;
+	background-size: 
+	height: 200px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 500px;
+
+}
+.header
+{
+	color: #3399FF;
+	background:  #f2f2f2;
+	font-weight: bold;
+	
+	height: 100%;
+	font-size: 18px;
+}
+.header1
+{
+  margin-left: 415px;
+}
+.header2
+{
+	 
+}
+.selected
+{
+   background:#3399FF ;
+   color: #f2f2f2 ;	
+
+}
+
+button
+{
+	background:  #f2f2f2 ;
+	border:#f2f2f2;
+	border: none;
+	transition: all 0.3s;/*cool it animates when the whole property that is acting on the button changes*/
+    -webkit-transition:  all 0.3s;
+    -moz-transition: all 0.3s;
+}
+button:hover
+{
+	background:#3399FF ;
+   color: #f2f2f2 ;	
+}
+#clickResult
+{
+   display: inline-block;
+   width: 20%;	
+   padding-left: 94px;
+}
+.disha:focus
+{
+  outline: none;
+}
+
